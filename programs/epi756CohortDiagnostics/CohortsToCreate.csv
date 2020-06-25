@@ -1,0 +1,7 @@
+atlasId,atlasName,cohortId,name
+16022,T1_Tramadol,16022,T1_Tramadol
+16023,T2_Tramadol_Exclude_Cough,16023,T2_Tramadol_Exclude_Cough
+16020,C1_Codeine,16020,C1_Codeine
+15906,C2_Codeine_Exclude_Cough,15906,C2_Codeine_Exclude_Cough
+15066,O1_Hip_Fracture_CPRD,15066,O1_Hip_Fracture_CPRD
+16021,O2_Hip_Fracture_Claims,16021,O2_Hip_Fracture_Claims

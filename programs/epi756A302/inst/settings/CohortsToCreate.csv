@@ -1,0 +1,4 @@
+atlasId,atlasName,cohortId,name
+16023,"[EPI_756] T2 - Tramadol (exclude cough, antibiotic, cold and cough medications, and antihistamines in last 30 days)",16023,EPI_756_T2__Tramadol_exclude_cough_antibiotic_cold_and_cough_medications_and_antihistamines_in_last_30_days
+15906,"[EPI_756] C2 - Codeine (exclude cough, antibiotic, cold and cough medications, and antihistamines in last 30 days)",15906,EPI_756_C2__Codeine_exclude_cough_antibiotic_cold_and_cough_medications_and_antihistamines_in_last_30_days
+16021,[EPI_756] O2 - (Primary Hip Fracture ER/IP Dx with Hip Fracture procedures +/- 7 days) OR (Primary Hip Fracture procedures with Hip Fracture ER/IP +/- 7 days),16021,EPI_756_O2__Primary_Hip_Fracture_ERIP_Dx_with_Hip_Fracture_procedures__7_days_OR_Primary_Hip_Fracture_procedures_with_Hip_Fracture_ERIP__7_days
