@@ -10,7 +10,7 @@ Comparing the Estimated Risk of Hip Fracture Among Subjects Exposed to Tramadol 
 - Study lead forums tag: **[Erica A Voss](https://www.ohdsi.org/who-we-are/collaborators/erica-voss/)**
 - Study start date: **Feb 19, 2020**
 - Study end date: **-**
-- Protocol: **-**
+- Protocol: **[Protocol - Tramadol vs Codeine and Risk of Hip Fracture](https://github.com/ohdsi-studies/TramadolVsCodeineForHipFracture/blob/master/Protocol%20-%20Tramadol%20vs%20Codeine%20and%20Risk%20of%20Hip%20Fracture.docx)**
 - Publications: **-**
 - Results explorer: **-**
 
