@@ -1,7 +1,7 @@
 source("DataPulls.R")
 source("PlotsAndTables.R")
 
-shinySettings <- list(dataFolder = "S:/BitBucket/epi_756/programs/epi756A302/results/shinyDataAll", blind = TRUE)
+shinySettings <- list(dataFolder = "S:/GIT/BitBucket/epi_756/programs/epi756A302/result/shinyDataAll", blind = FALSE)
 dataFolder <- shinySettings$dataFolder
 blind <- shinySettings$blind
 connection <- NULL
@@ -32,6 +32,11 @@ loadFile <- function(file, removePart) {
   camelCaseName <- SqlRender::snakeCaseToCamelCase(tableName)
   if (!(tableName %in% splittableTables)) {
     newData <- readRDS(file.path(dataFolder, file))
+    if (camelCaseName == "cohortMethodResult") {
+      if (removePart != "_Meta-analysis.rds$") {
+        newData$sources <- rep("", nrow(newData))
+      }
+    }
     colnames(newData) <- SqlRender::snakeCaseToCamelCase(colnames(newData))
     if (exists(camelCaseName, envir = .GlobalEnv)) {
       existingData <- get(camelCaseName, envir = .GlobalEnv)

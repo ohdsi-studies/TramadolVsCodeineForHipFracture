@@ -1,7 +1,7 @@
 source("DataPulls.R")
 source("PlotsAndTables.R")
 
-shinySettings <- list(dataFolder = "S:/BitBucket/epi_756/programs/epi756A301/results/shinyDataAll", blind = TRUE)
+#shinySettings <- list(dataFolder = "S:/BitBucket/epi_756/programs/epi756A301/results/shinyDataAll", blind = TRUE)
 dataFolder <- shinySettings$dataFolder
 blind <- shinySettings$blind
 connection <- NULL

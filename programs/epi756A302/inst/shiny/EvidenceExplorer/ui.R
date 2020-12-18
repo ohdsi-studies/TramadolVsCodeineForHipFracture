@@ -36,8 +36,9 @@ shinyUI(
                                                   tabPanel("Power",
                                                            uiOutput("powerTableCaption"),
                                                            tableOutput("powerTable"),
-                                                           uiOutput("timeAtRiskTableCaption"),
-                                                           tableOutput("timeAtRiskTable")
+                                                           conditionalPanel("output.isMetaAnalysis == false",
+                                                                            uiOutput("timeAtRiskTableCaption"),
+                                                                            tableOutput("timeAtRiskTable"))
                                                   ),
                                                   tabPanel("Attrition",
                                                            plotOutput("attritionPlot", width = 600, height = 600),
@@ -88,6 +89,13 @@ shinyUI(
                                                                downloadButton("downloadKaplanMeierPlotPng", label = "Download plot as PNG"),
                                                                downloadButton("downloadKaplanMeierPlotPdf", label = "Download plot as PDF")
                                                            )),
+                                                  tabPanel("Forest plot",
+                                                           uiOutput("hoverInfoForestPlot"),
+                                                           plotOutput("forestPlot", height = 450, 
+                                                                      hover = hoverOpts("plotHoverForestPlot", delay = 100, delayType = "debounce")),
+                                                           uiOutput("forestPlotCaption"),
+                                                           div(style = "display: inline-block;vertical-align:top;")
+                                                  ),
                                                   tabPanel("Subgroups",
                                                            uiOutput("subgroupTableCaption"),
                                                            dataTableOutput("subgroupTable")

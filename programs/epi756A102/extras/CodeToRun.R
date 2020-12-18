@@ -19,7 +19,7 @@ studyFolder <- "S:/GIT/BitBucket/epi_756/programs/epi756A102/results"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "pdw",
-                                                                server = "SERVER",
+                                                                server = "SERVER_NAME",
                                                                 user = NULL,
                                                                 password = NULL,
                                                                 port = 17001)

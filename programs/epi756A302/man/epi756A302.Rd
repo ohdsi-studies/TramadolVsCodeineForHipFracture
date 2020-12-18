@@ -3,8 +3,4 @@
 \docType{package}
 \name{epi756A302}
 \alias{epi756A302}
-\alias{epi756A302-package}
 \title{epi756A302}
-\description{
-epi756A302
-}

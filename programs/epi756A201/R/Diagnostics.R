@@ -63,6 +63,8 @@ createDiagnosticsForSubset <- function(subset, allControls, outputFolder, cmOutp
   ParallelLogger::logDebug("Subset has ", nrow(subset)," entries with ", sum(!is.na(subset$seLogRr)), " valid estimates")
   title <- paste(paste(subset$targetName[1], subset$comparatorName[1], sep = " - "), 
                  subset$analysisDescription[1], sep = "\n")
+  title2 <- paste(paste('T1-Tramadol', 'C1-Codeine', sep = " - "), 
+                  subset$analysisDescription[1], sep = "\n")
   controlSubset <- merge(subset,
                          allControls[, c("targetId", "comparatorId", "outcomeId", "oldOutcomeId", "targetEffectSize")])
   
@@ -78,9 +80,19 @@ createDiagnosticsForSubset <- function(subset, allControls, outputFolder, cmOutp
     EmpiricalCalibration::plotCalibrationEffect(logRrNegatives = negControlSubset$logRr,
                                                 seLogRrNegatives = negControlSubset$seLogRr,
                                                 null = null,
-                                                showCis = TRUE,
+                                                showCis = FALSE,
                                                 title = title,
-                                                fileName = fileName)
+                                                fileName = fileName,
+                                                xLabel = "Hazard Ratio")
+    fileName <-  file.path(diagnosticsFolder, paste0("nullDistributionWoutCCI_a", analysisId, "_t", targetId, "_c", comparatorId, ".png"))
+    plotCalibrationEffectWoutCCI(logRrNegatives = negControlSubset$logRr,
+                                 seLogRrNegatives = negControlSubset$seLogRr,
+                                 null = null,
+                                 showCis = FALSE,
+                                 title = title2,
+                                 fileName = fileName,
+                                 xLabel = "Hazard Ratio")
+    
   } else {
     null <- NULL
   }

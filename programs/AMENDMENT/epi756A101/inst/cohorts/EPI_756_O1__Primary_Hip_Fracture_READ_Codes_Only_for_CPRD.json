@@ -1,0 +1,1101 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45430724,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300311",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture, base of neck of femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45447245,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300400",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture head of femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45460629,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302011",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of femur, greater trochanter",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45420895,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302400",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of femur, intertrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45517401,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302012",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of femur, lesser trochanter",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45474141,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300y11",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of femur, subcapital",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45457315,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300A00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of femur, upper epiphysis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45470889,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30y.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of neck of femur NOS",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45503988,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of proximal femur, pertrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45514049,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302z00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of proximal femur, pertrochanteric section, not otherwise specified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45467463,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302000",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of proximal femur, trochanteric section, unspecified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45467465,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30w.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture of unspecified proximal femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45460628,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300300",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, basicervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45470888,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302300",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, intertrochanteric, comminuted",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45497337,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302100",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, intertrochanteric, two part",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45430723,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300000",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, intracapsular section, unspecified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45460627,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300200",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, midcervical section",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45520647,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300y00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, other transcervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45443933,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300600",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subcapital, Garden grade I",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45427356,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300700",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subcapital, Garden grade II",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45427357,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300800",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subcapital, Garden grade III",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45494072,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300900",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subcapital, Garden grade IV",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45497336,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300500",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subcapital, Garden grade unspecified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45450597,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S302200",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, subtrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45500669,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, transcervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45464110,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300z00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, transcervical, not otherwise specified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45520646,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S300100",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed fracture proximal femur, transepiphyseal",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45499201,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "7K1L500",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed reduction of fracture of femur",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45476055,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "7K1L400",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Closed reduction of fracture of hip",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45497335,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30..00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Fracture of neck of femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45453921,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30..11",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Hip fracture",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45443934,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30y.11",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Hip fracture NOS",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45474142,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301311",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture base of neck of femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45520648,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301400",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture head, femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45490733,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303011",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of femur, greater trochanter",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45490734,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303400",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of femur, intertrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45420896,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303012",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of femur, lesser trochanter",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45503987,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301y11",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of femur, subcapital",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45477500,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301A00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of femur, upper epiphysis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45437319,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30z.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of neck of femur NOS",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45467464,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of proximal femur, pertrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45447247,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303z00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of proximal femur, pertrochanteric, not otherwise specified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45460630,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303000",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of proximal femur, trochanteric section, unspecified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45450598,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S30x.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture of unspecified proximal femur",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45487479,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301300",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, basicervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45440643,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303300",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, intertrochanteric, comminuted",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45520649,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303100",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, intertrochanteric, two part",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45440642,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301000",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, intracapsular section, unspecified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45477497,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301200",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, midcervical section",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45510604,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301y00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, other transcervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45477498,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301600",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur,subcapital, Garden grade I",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45453923,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301700",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur,subcapital, Garden grade II",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45447246,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301800",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur,subcapital, Garden grade III",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45477499,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301900",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur,subcapital, Garden grade IV",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45457316,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301500",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur,subcapital, Garden grade unspec",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45497338,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S303200",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, subtrochanteric",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45500670,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, transcervical",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45490732,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301z00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, transcervical, not otherwise specified",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45453922,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S301100",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Open fracture proximal femur, transepiphyseal",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45487480,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "S304.00",
+          "VOCABULARY_ID": "Read",
+          "CONCEPT_NAME": "Pertrochanteric fracture",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Read",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }
+    ]},
+    "name": "[EPI_756] Hip Fracture - Berry READ Source Code Definition (Berry SD. Diuretic initiation and the acute risk of hip fracture. PMID: 22790610)",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [],
+      "Type": "ALL",
+      "DemographicCriteriaList": [{
+        "Ethnicity": null,
+        "OccurrenceEndDate": null,
+        "Race": null,
+        "Gender": null,
+        "OccurrenceStartDate": null,
+        "Age": {
+          "Op": "bt",
+          "Extent": 89,
+          "Value": 50
+        }
+      }],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "Aged 50-89",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": true,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": 0,
+        "StopReason": null,
+        "Age": null
+      }},
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": null,
+        "ProcedureSourceConcept": 0,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": true,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

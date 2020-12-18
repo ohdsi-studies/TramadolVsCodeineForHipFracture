@@ -6,13 +6,11 @@
 ################################################################################
 # CONFIG
 ################################################################################
-
-
 library(epi756A101)
 
 # Optional: specify where the temporary files (used by the ff package) will be created:
-#options(fftempdir = "S:\\fftemp")
-options(fftempdir = "D:\\fftemp")
+options(fftempdir = "S:\\fftemp")
+#options(fftempdir = "D:\\fftemp")
 
 ################################################################################
 # VARIABLES
@@ -21,12 +19,12 @@ options(fftempdir = "D:\\fftemp")
 maxCores <- parallel::detectCores()
 
 # The folder where the study intermediate and result files will be written:
-#studyFolder <- "S:/GIT/BitBucket/epi_756/programs/epi756/results"
-studyFolder <- "S:/BitBucket/epi_756/programs/epi756A101/results"
+studyFolder <- "S:/GIT/BitBucket/epi_756/programs/epi756A101/results"
+#studyFolder <- "S:/BitBucket/epi_756/programs/epi756A101/results"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "pdw",
-                                                                server = "SERVER",
+                                                                server = "SERVER_NAME",
                                                                 user = NULL,
                                                                 password = NULL,
                                                                 port = 17001)
@@ -48,6 +46,8 @@ study <- "A101"
 # WORK
 ################################################################################
 
+# INITIAL MAIN RUN -------------------------------------------------------------
+#-------------------------------------------------------------------------------
 for(i in 1:nrow(databases)){
         print("#######################################################################")
         print(paste0("Run PLE:  ",databases[i,]$databaseId))
@@ -130,28 +130,34 @@ for(i in 1:nrow(databases)){
         prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
 }
 
-
-# meta-analysis ----------------------------------------------------------------
-# doMetaAnalysis(outputFolders = c(file.path(studyFolder, "CCAE"),
-#                                  file.path(studyFolder, "MDCR"),
-#                                  file.path(studyFolder, "MDCD"),
-#                                  file.path(studyFolder, "Optum")), 
-#                maOutputFolder = file.path(studyFolder, "MetaAnalysis"),
-#                maxCores = maxCores)
-
+#RSHINY SETUP-------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # copy export objects to one directory ------------------------------------------
 fullShinyDataFolder <- file.path(studyFolder, "shinyDataAll")
 if (!file.exists(fullShinyDataFolder)) {
         dir.create(fullShinyDataFolder)
 }
-file.copy(from = c(list.files(file.path(studyFolder, "CCAE", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "MDCR", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "MDCD", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "OPTUM_DOD", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "CPRD", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "JMDC", "shinyData"), full.names = TRUE),
-                   list.files(file.path(studyFolder, "MetaAnalysis", "shinyData"), full.names = TRUE)),
+file.copy(from = c(list.files(file.path(studyFolder, "CDM_CPRD_V1102", "shinyData"), full.names = TRUE)),
           to = fullShinyDataFolder,
           overwrite = TRUE)
 
 launchEvidenceExplorer(dataFolder = fullShinyDataFolder, blind = TRUE, launch.browser = FALSE)
+
+################################################################################
+# ADDITIONAL OUTPUT
+################################################################################
+
+# Plot Perference Score and Covariate Balance Before and 
+#-------------------------------------------------------------------------------
+ps <- readRDS("S:/GIT/BitBucket/epi_756/programs/epi756A101/results/CDM_CPRD_V1102/cmOutput/Ps_l1_s1_p1_t16022_c16020.rds")
+fileName <-  file.path(studyFolder, paste0("PrefreenceScoreDistribution_A101.png"))
+CohortMethod::plotPs(data = ps,
+                     targetLabel = "T1 - Tramadol",
+                     comparatorLabel = "C1 - Codeine",
+                     showCountsLabel = FALSE,
+                     showAucLabel = FALSE,
+                     showEquiposeLabel = FALSE,
+                     #title = "Title",
+                     fileName = fileName)
+
+# No Covariate Balance Plot since no matched patients

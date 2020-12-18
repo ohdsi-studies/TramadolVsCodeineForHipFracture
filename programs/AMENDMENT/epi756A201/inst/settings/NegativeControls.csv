@@ -1,0 +1,102 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+16022,16020,46273370,Abnormal chest sounds,outcome
+16022,16020,4093531,Absence of toe,outcome
+16022,16020,4092879,Absent kidney,outcome
+16022,16020,441968,Acetonuria,outcome
+16022,16020,4081648,Acute vaginitis,outcome
+16022,16020,4061157,Antenatal ultrasound scan abnormal,outcome
+16022,16020,200528,Ascites,outcome
+16022,16020,438409,Attention deficit hyperactivity disorder,outcome
+16022,16020,434170,Atypical squamous cells of undetermined significance on cervical Papanicolaou smear,outcome
+16022,16020,4045471,Autoimmune reaction mediated by cell-mediated immunity,outcome
+16022,16020,132736,Bacteremia,outcome
+16022,16020,438990,Benign neuroendocrine tumor,outcome
+16022,16020,4195873,Breath smells unpleasant,outcome
+16022,16020,4067069,Callosity,outcome
+16022,16020,4228429,Carnitine deficiency,outcome
+16022,16020,376116,Central scotoma,outcome
+16022,16020,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+16022,16020,201613,Chronic nonalcoholic liver disease,outcome
+16022,16020,4201390,Colostomy present,outcome
+16022,16020,377888,Conductive hearing loss,outcome
+16022,16020,4022071,Convalescence,outcome
+16022,16020,380724,Corneal ghost vessels,outcome
+16022,16020,42537730,Coronary artery graft present,outcome
+16022,16020,436233,Delayed milestone,outcome
+16022,16020,438759,Descemet's membrane fold,outcome
+16022,16020,377910,Deviated nasal septum,outcome
+16022,16020,438701,Disseminated malignancy of unknown primary,outcome
+16022,16020,381877,Dysfunction of eustachian tube,outcome
+16022,16020,192367,Dysplasia of cervix,outcome
+16022,16020,433111,Effects of hunger,outcome
+16022,16020,435170,Effects of thirst,outcome
+16022,16020,4028689,Electrocerebral silence,outcome
+16022,16020,200775,Endometrial hyperplasia,outcome
+16022,16020,433527,Endometriosis,outcome
+16022,16020,4170770,Epidermoid cyst,outcome
+16022,16020,4167696,Estrogen receptor positive tumor,outcome
+16022,16020,374358,Excess skin of eyelid,outcome
+16022,16020,4086512,Excess subcutaneous fat,outcome
+16022,16020,4229403,Flat anterior chamber of eye,outcome
+16022,16020,4166231,Genetic predisposition,outcome
+16022,16020,438111,Hematologic neoplasm of uncertain behavior,outcome
+16022,16020,439871,Hemospermia,outcome
+16022,16020,372897,Homonymous hemianopia,outcome
+16022,16020,435511,Hypercalcemia,outcome
+16022,16020,133729,Hyperparathyroidism,outcome
+16022,16020,4287416,Hyperphenylalaninemia,outcome
+16022,16020,440129,Hypertrophy of nasal turbinates,outcome
+16022,16020,4057743,Hyperuricuria,outcome
+16022,16020,4029280,Hypervitaminosis B6,outcome
+16022,16020,435522,Hypervitaminosis D,outcome
+16022,16020,434004,Hypervolemia,outcome
+16022,16020,440072,Hypogammaglobulinemia,outcome
+16022,16020,435515,Hypo-osmolality and or hyponatremia,outcome
+16022,16020,432596,Immune defect,outcome
+16022,16020,374375,Impacted cerumen,outcome
+16022,16020,4280828,Infectious disease carrier,outcome
+16022,16020,440053,Infestation by insect,outcome
+16022,16020,4168222,"Intra-abdominal and pelvic swelling, mass and lump",outcome
+16022,16020,440710,Intraretinal microvascular abnormality,outcome
+16022,16020,196168,Irregular periods,outcome
+16022,16020,4228331,Leukokeratosis nicotina palati,outcome
+16022,16020,4027782,Lipid storage disease,outcome
+16022,16020,435516,Lipoprotein deficiency disorder,outcome
+16022,16020,4166126,"Localized swelling, mass and lump, trunk",outcome
+16022,16020,44784454,Localized visual field defect,outcome
+16022,16020,433997,Lymphangioma,outcome
+16022,16020,40482859,Malignant carcinoid tumor,outcome
+16022,16020,440058,Malignant lymphoma of extranodal AND/OR solid organ site,outcome
+16022,16020,436426,Malleus mobility reduced,outcome
+16022,16020,72737,Microcalcifications of the breast,outcome
+16022,16020,45757412,Mitochondrial metabolism defect,outcome
+16022,16020,4298207,Mouth breathing,outcome
+16022,16020,437543,Multiple cranial nerve palsy,outcome
+16022,16020,375077,Neglect of one side of body,outcome
+16022,16020,320073,Neutropenia,outcome
+16022,16020,40480893,Nonspecific tuberculin test reaction,outcome
+16022,16020,444428,Nonvenomous insect bite without infection,outcome
+16022,16020,439035,Otosclerosis,outcome
+16022,16020,4153516,Patient immunocompromised,outcome
+16022,16020,4141640,Perimenopausal disorder,outcome
+16022,16020,22856,Polyglandular dysfunction,outcome
+16022,16020,437369,Postmature infancy,outcome
+16022,16020,36675035,Prematurity of infant,outcome
+16022,16020,435028,Puerperal pyrexia of unknown origin,outcome
+16022,16020,4308074,Pyogenic granuloma,outcome
+16022,16020,372614,Retained magnetic foreign body in multiple sites,outcome
+16022,16020,436828,Saliva abnormal,outcome
+16022,16020,435088,Senility,outcome
+16022,16020,4090205,Sequelae of tuberculosis,outcome
+16022,16020,29056,Sialoadenitis,outcome
+16022,16020,141825,Simple goiter,outcome
+16022,16020,443082,Starvation,outcome
+16022,16020,40636815,Supernumerary teeth,outcome
+16022,16020,4182164,Temporomandibular joint crepitus,outcome
+16022,16020,40485495,Thymoma,outcome
+16022,16020,433244,Tooth loss,outcome
+16022,16020,4201387,Tracheostomy present,outcome
+16022,16020,4029731,Trimethylaminuria,outcome
+16022,16020,196821,Urethral discharge,outcome
+16022,16020,195603,Vulval and/or perineal noninflammatory disorders,outcome
+16022,16020,440193,Wristdrop,outcome
