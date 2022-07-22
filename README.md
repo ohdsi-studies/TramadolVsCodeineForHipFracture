@@ -1,7 +1,7 @@
 Comparing the Estimated Risk of Hip Fracture Among Subjects Exposed to Tramadol as Compared to Subjects Exposed to Codeine
 =============
 
-<img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized">
+<img src="https://img.shields.io/badge/Study%20Status-Complete-orange.svg" alt="Study Status: Complete"> 
 
 - Analytics use case(s): **Population-Level Estimation**
 - Study type: **Clinical Application**
@@ -9,10 +9,10 @@ Comparing the Estimated Risk of Hip Fracture Among Subjects Exposed to Tramadol 
 - Study lead: **Erica A Voss**
 - Study lead forums tag: **[Erica A Voss](https://www.ohdsi.org/who-we-are/collaborators/erica-voss/)**
 - Study start date: **Feb 19, 2020**
-- Study end date: **-**
+- Study end date: **July 9, 2022**
 - Protocol: **[Protocol - Tramadol vs Codeine and Risk of Hip Fracture](https://github.com/ohdsi-studies/TramadolVsCodeineForHipFracture/blob/master/Protocol%20-%20Tramadol%20Codeine%20and%20Risk%20of%20Hip%20Fracture%20-%20Amendment.docx)**
-- Publications: **-**
-- Results explorer: **-**
+- Publications: **Voss, E. A., Ali, S. R., Singh, A., Rijnbeek, P. R., Schuemie, M. J., & Fife, D. (2022). Hip Fracture Risk After Treatment with Tramadol or Codeine: An Observational Study. Drug safety, 45(7), 791–807. [https://doi.org/10.1007/s40264-022-01198-9](https://doi.org/10.1007/s40264-022-01198-9)**
+- Results explorer: **N/A**
 
 Hip fractures greatly impact an individual’s quality of life and carry a high risk of death within 1 year. Tramadol is a commonly used weak opioid for treatment of pain. A recent study by Wei et al. found that risk for hip fractures was higher for new users of tramadol than for new users of codeine or NSAIDs.  We were concerned of that study’s design choices because of several limitations such as: A less-than-optimal propensity score adjustment strategy, the absence of negative controls, the failure to address possible differences in the initial doses of tramadol versus codeine, and the fact that the study was done in only one data source limited to one countries data. We propose to do a study to assess hip fracture incidence among users of tramadol versus codeine that will reassess the relationship and address the Wei et al. study limitations. 
 
